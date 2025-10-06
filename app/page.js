@@ -44,7 +44,7 @@ export default function Page() {
         {/* Input */}
         <form onSubmit={handleSubmit} className="mb-6 flex flex-col gap-2">
           <input
-            type="password"
+            type="number"
             placeholder="Enter guess"
             value={value}
             onChange={(e) => setValue(e.target.value)}
